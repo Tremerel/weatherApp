@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+</head>
+
+<body>
+
+    <section id="app">
+
+        <h1>
+            <span id="ville" class="city">Nice</span>
+            <span class="tooltip">Clic pour entrer une autre ville</span>
+        </h1>
+
+        <i class="wi wi-day-rain"></i>
+
+        <h2>
+            <span id="temperature">25</span> C°
+            (<span id="conditions">Ciel dégagé</span>)
+        </h2>
+
+    </section>
+
+    <div id="array">
+    <canvas id="myChart" width="500" height="300"></canvas></div>
+
+</body>
+
+</html>
